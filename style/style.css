@@ -19,7 +19,7 @@ body{
     background-image: linear-gradient(var(--color-dark1),var(--color-dark4)); 
     margin:auto;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--color-white);
 
 }
@@ -60,17 +60,18 @@ body{
     -moz-transition: 0.1s;
     -ms-transition: 0.1s;
     -o-transition: 0.1s;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .navegation_header a:hover{
     color: var(--color-purple);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 15px;
 }
 a.active{
     background-color: var(--color-dark3);
     color: var(--color-blu);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     padding: 10px;
     border-radius: 15px;
@@ -103,7 +104,8 @@ Estilização de conteúdos
     text-decoration: none;
     background-color: var(--color-purple);
     color: var(--color-white);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     padding: 10% 20%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
