@@ -15,15 +15,15 @@
 }
 @font-face {
     font-family:GoFont;
-    src: url('/style/fonts/SansSerifBookFLF.otf') format(opentype);
+    src: url('style/fonts/SansSerifBookFLF.otf') format(opentype);
 }
 @font-face {
     font-family:GoFont2;
-    src: url('/style/fonts/OPTIFuturaDemiBold.otf') format(opentype);
+    src: url('style/fonts/OPTIFuturaDemiBold.otf') format(opentype);
 }
 @font-face {
     font-family:GoFont3;
-    src: url('/style/fonts/SansSerifBldFLF.otf') format(opentype);
+    src: url('style/fonts/SansSerifBldFLF.otf') format(opentype);
 }
 body{
     background-image: linear-gradient(var(--color-dark1),var(--color-dark4)); 
