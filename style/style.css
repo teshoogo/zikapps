@@ -1,3 +1,9 @@
-body{
-    background-color: rgb(85, 34, 34);
+html,body{
+    background-image: linear-gradient(#0e0915,#0d010f);
+    margin:auto;
+    height: 100%;
+
+}
+body header img.logo_header{
+    width: 200px;
 }
