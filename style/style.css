@@ -13,23 +13,13 @@
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family:GoFont;
-    src: url('style/fonts/SansSerifBookFLF.otf') format(opentype);
-}
-@font-face {
-    font-family:GoFont2;
-    src: url('style/fonts/OPTIFuturaDemiBold.otf') format(opentype);
-}
-@font-face {
-    font-family:GoFont3;
-    src: url('style/fonts/SansSerifBldFLF.otf') format(opentype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 body{
     background-image: linear-gradient(var(--color-dark1),var(--color-dark4)); 
     margin:auto;
     height: 100%;
-    font-family: GoFont;
+    font-family: 'Poppins', sans-serif;
     color: var(--color-white);
 
 }
@@ -70,17 +60,17 @@ body{
     -moz-transition: 0.1s;
     -ms-transition: 0.1s;
     -o-transition: 0.1s;
-    font-family: GoFont;
+    font-family: 'Poppins', sans-serif;
 }
 .navegation_header a:hover{
     color: var(--color-purple);
-    font-family: GoFont2;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 a.active{
     background-color: var(--color-dark3);
     color: var(--color-blu);
-    font-family: GoFont2;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     padding: 10px;
     border-radius: 15px;
@@ -113,7 +103,7 @@ Estilização de conteúdos
     text-decoration: none;
     background-color: var(--color-purple);
     color: var(--color-white);
-    font-family: GoFont3;
+    font-family: 'Poppins', sans-serif;
     padding: 10% 20%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
