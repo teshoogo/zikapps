@@ -104,7 +104,23 @@ Estilização de conteúdos
     -ms-transform: 1s;
     -o-transform: 1s;
 }
-
+/*estilização botão download*/
+.button_download{
+    background-color: transparent;
+    border: none;
+}
+.button_download a{
+    text-decoration: none;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    font-family: GoFont3;
+    padding: 10% 20%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 /* Estilização de botões do menu */
 
 .btn_icon_header{
