@@ -134,7 +134,7 @@ Estilização de conteúdos
     width: 60em;
     height: 33em;
     margin: auto;
-    background: linear-gradient(to top, #6600ffef, #0091ffd5), url(/img/dark.jpg) 0 0 no-repeat scroll;
+    background: linear-gradient(to top, #6600ffef, #0091ffd5), url(img/dark.jpg) 0 0 no-repeat scroll;
     border-radius: 3em;
     -webkit-border-radius: 3em;
     -moz-border-radius: 3em;
