@@ -86,7 +86,7 @@ Estilização de conteúdos
 
 .content{
     text-align: center;
-    padding-top: 5em;
+    padding-top: 1em;
     height: 100vh;
     transform: 1s;
     -webkit-transform: 1s;
@@ -128,6 +128,74 @@ Estilização de conteúdos
     cursor: pointer;
     display: none;
 }
+/* Estilização de slide*/
+.slider{
+    position: relative;
+    width: 60em;
+    height: 33em;
+    margin: auto;
+    background: linear-gradient(to top, #6600ffef, #0091ffd5), url(/img/dark.jpg) 0 0 no-repeat scroll;
+    border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -o-border-radius: 3em;
+}
+div.slider h1{
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: 20px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    -webkit-transition: translate(-50%,-50%);
+    -moz-transition: translate(-50%,-50%);
+    -ms-transition: translate(-50%,-50%);
+    -o-transition: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+div.slider span{
+    color: #110a19;
+}
+div.slider .button_download{
+    position: absolute;
+    left: 50%;
+    bottom: 35%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    -webkit-transition: translate(-50%,-50%);
+    -moz-transition: translate(-50%,-50%);
+    -ms-transition: translate(-50%,-50%);
+    -o-transition: translate(-50%,-50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
+div.slider h2{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    margin-bottom: 5px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    -webkit-transition: translate(-50%,-50%);
+    -moz-transition: translate(-50%,-50%);
+    -ms-transition: translate(-50%,-50%);
+    -o-transition: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
 @media  screen and (max-width: 768px) {
     .btn_icon_header{
     display: block;
@@ -149,3 +217,4 @@ Estilização de conteúdos
     from {margin-left: -100vw;}
     top {margin-left: -24vw;}
 }
+
