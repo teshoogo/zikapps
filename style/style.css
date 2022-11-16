@@ -256,28 +256,6 @@ div.tabelamarcas h2{
     margin-bottom: 1em;
     font-size: 15px;
 }
-@media  screen and (max-width: 768px) {
-    .btn_icon_header{
-    display: block;
-    }
-    .navegation_header{
-        position: absolute;
-        flex-direction: column;
-        top: 0;
-        background-color: var(--color-dark5);
-        height: 100%;
-        width: 35vw;
-        padding: 1em;
-        animation-duration: 1s;
-        margin-left: -24vw;
-    }
-    
-}
-@keyframes showSidebar {
-    from {margin-left: -100vw;}
-    top {margin-left: -24vw;}
-}
-
 /* Rodapé Design*/
 footer{
     position: relative;
@@ -319,6 +297,9 @@ footer .texto-rodape a:hover{
     opacity: 1;
     color: var(--color-blu);
 }
+footer .imagem-rodape a svg{
+    color: white;
+}
 footer .imagem-rodape svg{
     height: 25px;
     margin: 10px 5px;
@@ -337,4 +318,56 @@ footer .imagem-rodape p{
     width: 125px;
     margin: 10px;
     margin-top: 35px;
+}
+/* Estilo página aplicativos */
+/* Estilo da tela de apps */
+
+table.aplicativos{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+table.aplicativos td h1,p{
+    font-family: 'Roboto', sans-serif;
+}
+table.aplicativos td{
+    padding: 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+table.aplicativos td img{
+    border: 2px solid var(--color-blu);
+    vertical-align: center;
+    opacity: 0.8;
+    height: 200px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+table.aplicativos td img:hover{
+    opacity: 1;
+    filter: none;
+    -webkit-filter: none;
+}
+/* Estilo GO Control Page */
+div.cabecalhoapp img{
+    width: 350px;
+    position: fixed;
+    right: 5%;
+
+}
+
+div.cabecalhoapp{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 250px;
 }
