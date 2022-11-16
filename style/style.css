@@ -358,16 +358,54 @@ table.aplicativos td img:hover{
 }
 /* Estilo GO Control Page */
 div.cabecalhoapp img{
-    width: 350px;
-    position: fixed;
-    right: 5%;
-
+    border-radius: 25%;
+    border: 10px solid var(--color-dark2);
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    position:static;
+    margin: 0px 15%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
 }
-
+div.cabecalhoapp h1{
+    margin: 0px 15%;
+    font-size: 50px;
+}
 div.cabecalhoapp{
-    background-color: red;
+    margin-top: 50px;
+    background-color: var(--color-dark2);
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 250px;
+}
+/* Design sobre app */
+.sobreapp{
+font-family: 'Roboto', sans-serif;
+ margin: 50px 15%;
+}
+.sobreapp h1{
+    text-align: center;
+   }
+.sobreapp button{
+    background-color: transparent;
+    border: none;
+    margin: 10px 10px;
+}
+.sobreapp button a{ text-decoration: none; background-color: var(--color-purple); padding: 20px; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
+    color: var(--color-white);
+    align-items: center;
+}
+.sobreapp button a svg{
+    color: var(--color-white);
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+.sobreapp .botoes{
+    text-align: center;
+    margin-top: 25px;
 }
