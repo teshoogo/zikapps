@@ -9,7 +9,7 @@ module.exports = [
         label: 'Ajuda',
         submenu: [
             {label : 'Início', click : () => { require('./main')("home") }},
-            {label : 'Atualizar', click : () => { require('./main')("about") }},
+            {label : 'Download', click : () => { require('./main')("about") }},
             {role : 'quit'},
         ]
     },
