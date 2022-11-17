@@ -4,7 +4,7 @@
 
 const config = {
     // Main Application URL
-    'websiteUrl' : 'https://www.appsheet.com/start/33c6ff5b-4f09-4783-a453-6cf42ef9239d?platform',
+    'websiteUrl' : 'https://www.appsheet.com/start/33c6ff5b-4f09-4783-a453-6cf42ef9239d',
 
     // Application Name
     'appName' : 'GoControl',
