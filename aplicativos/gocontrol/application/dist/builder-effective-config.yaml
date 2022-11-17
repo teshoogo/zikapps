@@ -4,4 +4,4 @@ directories:
 mac:
   category: public.app-category.utilities
 files: []
-electronVersion: 7.0.0
+electronVersion: 20.0.3
