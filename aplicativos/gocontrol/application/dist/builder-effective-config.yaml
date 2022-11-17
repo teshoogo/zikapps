@@ -1,0 +1,7 @@
+directories:
+  output: dist
+  buildResources: build
+mac:
+  category: public.app-category.utilities
+files: []
+electronVersion: 7.0.0
