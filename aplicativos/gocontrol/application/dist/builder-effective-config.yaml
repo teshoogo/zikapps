@@ -1,7 +1,0 @@
-directories:
-  output: dist
-  buildResources: build
-mac:
-  category: public.app-category.utilities
-files: []
-electronVersion: 20.0.3

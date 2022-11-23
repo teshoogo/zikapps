@@ -1,2 +1,0 @@
-GoControl[[:space:]]Setup[[:space:]]2.0.0.exe filter=lfs diff=lfs merge=lfs -text
-GoControl[[:space:]]Setup.exe filter=lfs diff=lfs merge=lfs -text
