@@ -5,114 +5,101 @@
 <title>GoApps</title>
 <meta name="author" content="Go Apps - Desemvolvimento de aplicativos e Sites">
 <meta name="generator" content="GoApps Developer - https://goapps.com.br">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="Untitled3.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
-<script src="wb.overlay.min.js"></script>
-<script src="wb.drilldownmenu.min.js"></script>
+<script src="jquery-ui.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   $('#OverlayMenu1-overlay').overlay({popup:true, hideTransition:true});
-   $('.OverlayMenu1').drilldownmenu({backText: 'Back'});
-   $('#OverlayMenu1').on('click', function(e)
+   var prevScrollTop = 0;
+   $(window).scroll(function(event)
    {
-      $.overlay.toggle($('#OverlayMenu1-overlay'));
-      return false;
+      var scrollTop = $(this).scrollTop();
+      if (Math.abs(prevScrollTop - scrollTop) <= 5)
+         return;
+      if (scrollTop < prevScrollTop)
+      {
+         $('#PageHeader1').removeClass('scroll-up');
+      }
+      else
+      {
+         $('#PageHeader1').addClass('scroll-up');
+      }
+      prevScrollTop = scrollTop;
    });
+   $("#ThemeableButton1").button();
 });
 </script>
 </head>
 <body>
-<div id="PageHeader1" style="position:absolute;text-align:left;left:0px;top:0px;width:100%;height:120px;z-index:7777;">
-<picture id="wb_Picture1" style="position:absolute;left:100px;top:37px;width:229px;height:38px;z-index:0">
-<img src="images/logo.png" id="Picture1" alt="" width="229" height="39">
+<div id="PageHeader1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:95px;z-index:7777;">
+<div id="PageHeader1_Container" style="width:1024px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<picture id="wb_Picture1" style="position:absolute;left:100px;top:40px;width:182px;height:30px;z-index:0">
+<img src="images/logo.png" id="Picture1" alt="" width="182" height="31">
 </picture>
-<div id="wb_OverlayMenu1" style="position:absolute;left:341px;top:36px;width:32px;height:32px;z-index:1;">
-<a href="#" id="OverlayMenu1">
-<span class="line"></span>
-<span class="line">
-</span><span class="line"></span>
-</a>
+<div id="wb_ResponsiveMenu1" style="position:absolute;left:306px;top:30px;width:427px;height:51px;z-index:1;">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title"><span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li role="menuitem"><a href="./index.html" title="GoApp"><i class="fa fa-home fa-2x">&nbsp;</i><br>Ínício</a></li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-pie-chart fa-2x">&nbsp;</i>Aplicativos<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-pie-chart fa-2x">&nbsp;</i><br>Aplicativos<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-1" class="toggle"><i class="fa fa-eye fa-2x">&nbsp;</i>Sobre<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-eye fa-2x">&nbsp;</i>Sobre<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-2" class="toggle"><i class="fa fa-html5 fa-2x">&nbsp;</i>HTML<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-html5 fa-2x">&nbsp;</i>HTML<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-2">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-3" class="toggle"><i class="fa fa-css3 fa-2x">&nbsp;</i>CSS<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-css3 fa-2x">&nbsp;</i>CSS<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-3">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+<li role="menuitem">
+<label for="ResponsiveMenu1-submenu-4" class="toggle"><i class="fa fa-code fa-2x">&nbsp;</i>JavaScript<b class="arrow-down"></b></label>
+<a href="javascript:void(0)"><i class="fa fa-code fa-2x">&nbsp;</i>JavaScript<b class="arrow-left"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-4">
+<ul role="menu">
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;1</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;2</a></li>
+<li role="menuitem"><a href="">Sub&nbsp;Menu&nbsp;3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li role="menuitem"><a href=""><i class="fa fa-question-circle fa-2x">&nbsp;</i><br>Como&nbsp;funciona?</a></li>
+</ul>
+</div>
+<button type="button" id="ThemeableButton1" name="" value="Me paga um café?" style="position:absolute;left:733px;top:37px;width:132px;height:31px;z-index:2;">Me paga um café?</button>
 </div>
 </div>
 
-<div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:left;left:0px;top:903px;width:100%;height:95px;z-index:4;">
-</div>
-<div id="OverlayMenu1-overlay">
-<div class="OverlayMenu1">
-<ul class="drilldown-menu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-home overlay-icon"></i>Home</a></li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-book overlay-icon"></i>Blog</a>
-<ul class="drilldown-submenu" role="menu">
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-eye overlay-icon"></i>Design</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-html5 overlay-icon"></i>HTML</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-css3 overlay-icon"></i>CSS</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-code overlay-icon"></i>JavaScript</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-gear overlay-icon"></i>Work</a>
-<ul class="drilldown-submenu" role="menu">
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-desktop overlay-icon"></i>Web&nbsp;Design</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-picture-o overlay-icon"></i>Typography</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-<li>
-<a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-envelope overlay-icon"></i>Applications</a>
-<ul class="drilldown-submenu" role="menu">
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;1</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;2</a></li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect">Sub&nbsp;Menu&nbsp;3</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a role="menuitem" href="#" class="OverlayMenu1-effect"><i class="fa fa-user overlay-icon"></i>About</a></li>
-   </ul>
-</div>
+<div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:left;left:0px;top:903px;width:100%;height:95px;z-index:5;">
 </div>
 </body>
 </html>
