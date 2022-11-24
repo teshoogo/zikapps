@@ -9,8 +9,8 @@
 
 <channel>
 	<title>GoApps</title>
-	<atom:link href="http:///feed/" rel="self" type="application/rss+xml" />
-	<link>http:///</link>
+	<atom:link href="http://teshoogo.github.io/goapps/feed/" rel="self" type="application/rss+xml" />
+	<link>http://teshoogo.github.io/goapps/</link>
 	<description></description>
 	<lastBuildDate>Thu, 24 Nov 2022 02:56:24 +0000</lastBuildDate>
 	<language>pt-BR</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>http:///hello-world/</link>
-					<comments>http:///hello-world/#comments</comments>
+		<link>http://teshoogo.github.io/goapps/hello-world/</link>
+					<comments>http://teshoogo.github.io/goapps/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 24 Nov 2022 02:56:24 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">http:///?p=1</guid>
+		<guid isPermaLink="false">http://teshoogo.github.io/goapps/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http:///hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>http://teshoogo.github.io/goapps/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
