@@ -3223,7 +3223,7 @@ body {cursor: none!important;}
 			/* <![CDATA[ */
 			var rcewpp = {
 				"ajax_url":"http://localhost/goapps/wp-admin/admin-ajax.php",
-				"nonce": "a6612d2a01",
+				"nonce": "ff70ea66bc",
 				"home_url": "http://localhost/goapps/",
 				"settings_icon": 'http://localhost/goapps/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings.png',
 				"settings_hover_icon": 'http://localhost/goapps/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings_hover.png'
@@ -3233,20 +3233,13 @@ body {cursor: none!important;}
 		<script src='http://localhost/goapps/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
 <script src='http://localhost/goapps/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script src='http://localhost/goapps/wp-content/plugins/export-wp-page-to-static-html-pro-premium/public/js/export-wp-page-to-static-html-public.js?ver=1.0.4' id='export-wp-page-to-static-html-js'></script>
-<script src='http://localhost/goapps/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.1.0' id='jquery-blockui-js'></script>
-<script id='wc-add-to-cart-js-extra'>
-var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goapps\/?wc-ajax=%%endpoint%%&elementor_page_id=0","i18n_view_cart":"Ver carrinho","cart_url":"http:\/\/localhost\/goapps\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-</script>
-<script src='http://localhost/goapps/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.1.0' id='wc-add-to-cart-js'></script>
-<script src='http://localhost/goapps/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.9.0' id='vc_woocommerce-add-to-cart-js-js'></script>
 <script src='http://localhost/goapps/wp-content/themes/obelisk/js/modernizr.js?ver=6.1.1' id='modernizr-js'></script>
 <link rel="https://api.w.org/" href="http://localhost/goapps/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/goapps/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/goapps/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 6.1.1" />
 <meta name="generator" content="WooCommerce 7.1.0" />
 <meta name="generator" content="Redux 4.3.20" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-<meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+	<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <link rel="icon" href="http://localhost/goapps/wp-content/uploads/2022/04/fav-63x63.png" sizes="32x32" />
 <link rel="icon" href="http://localhost/goapps/wp-content/uploads/2022/04/fav.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="http://localhost/goapps/wp-content/uploads/2022/04/fav.png" />
@@ -3300,10 +3293,10 @@ var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc
 				}
 			//});
 		  };</script>
-<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript> 
+ 
 </head>
 	
-<body class="error404 theme-obelisk woocommerce-no-js obelisk-auto-mode wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-7"> 
+<body class="error404 theme-obelisk woocommerce-no-js obelisk-auto-mode elementor-default elementor-kit-7"> 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>    
                            
     <!-- Dark mode switcher -->
@@ -3327,14 +3320,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc
 			 <div class="container-fluid">
 				<div class="top-logo">
 					<a href="http://localhost/goapps/">
-						<img alt="Logo" class="logo1 obelisk-logo-dark"  style=height:25px src="http://localhost/goapps/wp-content/uploads/2022/11/logo-gr-1.png">
+						<img alt="Logo" class="logo1 obelisk-logo-dark"  style=height:25px src="http://localhost/goapps/wp-content/uploads/2022/11/logo-gr-1s.png">
 						<img alt="Logo" class="logo1 obelisk-logo-light"  style=height:25px src="http://localhost/goapps/wp-content/uploads/2022/11/logo-dark.png">
 					</a>
 				</div><!--End Logo-->
 				
 				<div class="header-wrapper  d-none d-md-block" > <!-- hidden-xs hidden-sm -->
 					<div class="main-menu menu-wrapper">
-						<div class="menu-menu-1-container"><ul id="menu-menu-1" class="home-nav navigation menu"><li id="menu-item-944" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-944"><a href="http://localhost/goapps/">Home</a></li>
+						<div class="menu-menu-1-container"><ul id="menu-menu-1" class="home-nav navigation menu"><li id="menu-item-944" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-944"><a href="http://localhost/goapps/">Início</a></li>
 <li id="menu-item-947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-947"><a href="http://localhost/goapps/aplicativos/">Aplicativos</a></li>
 <li id="menu-item-946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-946"><a href="http://localhost/goapps/contact/">Peça um app</a></li>
 </ul></div>					</div><!-- End menu-wrapper -->
@@ -3367,7 +3360,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc
 					<a href="#" class="hamburger"><div class="hamburger__icon"></div></a>
 					<div class="fat-nav">
 						<div class="fat-nav__wrapper">
-							<div class="fat-list"> <ul id="menu-menu-2" class="mob-nav  menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-944"><a href="http://localhost/goapps/">Home</a></li>
+							<div class="fat-list"> <ul id="menu-menu-2" class="mob-nav  menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-944"><a href="http://localhost/goapps/">Início</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-947"><a href="http://localhost/goapps/aplicativos/">Aplicativos</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-946"><a href="http://localhost/goapps/contact/">Peça um app</a></li>
 </ul></div>
@@ -3459,14 +3452,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc
 
 												<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class=" pe-7s-angle-right"></i>						</span>
-										<span class="elementor-icon-list-text">Blogs & Guides</span>
-											</a>
-									</li>
-								<li class="elementor-icon-list-item">
-											<a href="#0">
-
-												<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class=" pe-7s-angle-right"></i>						</span>
 										<span class="elementor-icon-list-text">Premium Support</span>
 											</a>
 									</li>
@@ -3506,22 +3491,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc
 												<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class=" pe-7s-angle-right"></i>						</span>
 										<span class="elementor-icon-list-text">Privacy</span>
-											</a>
-									</li>
-								<li class="elementor-icon-list-item">
-											<a href="#0">
-
-												<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class=" pe-7s-angle-right"></i>						</span>
-										<span class="elementor-icon-list-text">Setting</span>
-											</a>
-									</li>
-								<li class="elementor-icon-list-item">
-											<a href="#0">
-
-												<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class=" pe-7s-angle-right"></i>						</span>
-										<span class="elementor-icon-list-text">My Account</span>
 											</a>
 									</li>
 						</ul>
@@ -3591,7 +3560,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc
 		})();
 	</script>
 	<link rel='stylesheet' id='elementor-frontend-css' href='http://localhost/goapps/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.8.1' media='all' />
-<link rel='stylesheet' id='elementor-post-613-css' href='http://localhost/goapps/wp-content/uploads/elementor/css/post-613.css?ver=1669605045' media='all' />
+<link rel='stylesheet' id='elementor-post-613-css' href='http://localhost/goapps/wp-content/uploads/elementor/css/post-613.css?ver=1669606205' media='all' />
 <link rel='stylesheet' id='elementor-icons-css' href='http://localhost/goapps/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0' media='all' />
 <link rel='stylesheet' id='elementor-post-7-css' href='http://localhost/goapps/wp-content/uploads/elementor/css/post-7.css?ver=1669592581' media='all' />
 <link rel='stylesheet' id='elementor-pro-css' href='http://localhost/goapps/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.0' media='all' />
@@ -3617,6 +3586,11 @@ var wpcf7 = {"api":{"root":"http:\/\/localhost\/goapps\/wp-json\/","namespace":"
 <script src='http://localhost/goapps/wp-content/plugins/obelisk_plugin/assets/lib/font-awesome/js/font-awesome-kit.js' id='font-awesome-kit-js'></script>
 <script src='http://localhost/goapps/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' defer async id='tp-tools-js'></script>
 <script src='http://localhost/goapps/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' defer async id='revmin-js'></script>
+<script src='http://localhost/goapps/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.1.0' id='jquery-blockui-js'></script>
+<script id='wc-add-to-cart-js-extra'>
+var wc_add_to_cart_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goapps\/?wc-ajax=%%endpoint%%&elementor_page_id=0","i18n_view_cart":"Ver carrinho","cart_url":"http:\/\/localhost\/goapps\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src='http://localhost/goapps/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.1.0' id='wc-add-to-cart-js'></script>
 <script src='http://localhost/goapps/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.1.0' id='js-cookie-js'></script>
 <script id='woocommerce-js-extra'>
 var woocommerce_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goapps\/?wc-ajax=%%endpoint%%&elementor_page_id=0"};
@@ -3663,7 +3637,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/goapps\/wp-admin\/admin-ajax.php",
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script id='elementor-pro-frontend-js-before'>
-var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/localhost\/goapps\/wp-admin\/admin-ajax.php","nonce":"5b2792e51f","urls":{"assets":"http:\/\/localhost\/goapps\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/localhost\/goapps\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"http:\/\/localhost\/goapps\/cart\/","checkout_page_url":"http:\/\/localhost\/goapps\/checkout\/","fragments_nonce":"632b8365dd"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/localhost\/goapps\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/localhost\/goapps\/wp-admin\/admin-ajax.php","nonce":"c78cb6fd0d","urls":{"assets":"http:\/\/localhost\/goapps\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/localhost\/goapps\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"http:\/\/localhost\/goapps\/cart\/","checkout_page_url":"http:\/\/localhost\/goapps\/checkout\/","fragments_nonce":"024f6f5fa4"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/localhost\/goapps\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script src='http://localhost/goapps/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.0' id='elementor-pro-frontend-js'></script>
 <script src='http://localhost/goapps/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
