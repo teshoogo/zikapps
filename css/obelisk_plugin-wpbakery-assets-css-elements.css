@@ -1,0 +1,149 @@
+/*==================================================================
+WPBAkery css
+===================================================================*/
+
+.obelisk-section-background-overlay {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.obelisk-footer-padding {
+    padding: 100px 0px 100px 0px !important;
+    background: #18191D;
+}
+
+.obelisk-top-header-padding {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+.obelisk-bottom-header-padding {
+    padding: 0px 50px !important;
+    margin-top: -20px !important;
+    margin-bottom: -15px !important;
+    z-index: 1;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s !important;
+}
+
+.obelisk-bottom-header-row {
+    padding: 0px 20px !important;
+    border-radius: 5px !important;
+    background: #fdfdfd;
+    z-index: 10;
+    z-index: 1;
+}
+
+.obelisk-bottom-header-row .vc_column-inner {
+    padding-top: 0px !important;
+}
+
+.obelisk-sticky-top.is-stuck {
+    position: fixed !important;
+    top: 20px !important;
+    background: #FFFFFF;
+}
+
+.admin-bar .obelisk-sticky-top.is-stuck {
+    top: calc(20px + 32px) !important;
+}
+
+.obelisk-footer-padding .obelisk-heading.style-1 {
+    margin-top: 0;
+}
+
+.wpb_gmaps_widget .wpb_wrapper {
+    padding: 0px !important;
+}
+
+@media (max-width: 767px) {
+    .obelisk-top-header-padding {
+        display: none;
+    }
+    .obelisk-bottom-header-padding {
+        padding: 0px !important;
+    }
+    .obelisk-bottom-header-row {
+        padding: 20px !important;
+        border-radius: 0px !important;
+    }
+    .obelisk-sticky-top .vc_row.vc_row-flex {
+        flex-wrap: initial;
+    }
+    .obelisk-testim-2 {
+        margin-bottom: 120px;
+        margin-top: 150px;
+    }
+}
+
+
+/*==================================================================
+WPBAkery icon Box Styles
+===================================================================*/
+
+.obelisk-icon-box {
+    position: relative;
+    display: flex;
+}
+
+.obelisk-icon-box .icon {
+    display: inline-block;
+}
+
+.obelisk-icon-box .icon i {
+    font-size: 30px;
+}
+
+.obelisk-icon-box .content {
+    padding: 0px;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.obelisk-icon-box .content h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px
+}
+
+.obelisk-icon-box .content p {
+    margin-bottom: 0px;
+}
+
+
+/*==================================================================
+WPBAkery social icons Styles
+===================================================================*/
+
+.obelisk_social_icons .social_icon {
+    display: inline-block;
+}
+
+.obelisk_social_icons .social_icon a {
+    margin-right: 15px;
+}
+
+.obelisk_social_icons .social_icon a {
+    background-color: rgba(255, 255, 255, 0.01);
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    line-height: var(--icon-size, 25px);
+    width: calc(var(--icon-size, 25px) + 2*var(--icon-padding, .5em));
+    height: calc(var(--icon-size, 25px) + 2*var(--icon-padding, .5em));
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
